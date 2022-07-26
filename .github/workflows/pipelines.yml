@@ -36,7 +36,7 @@ jobs:
         CLIENT_ID: ${{ secrets.SALESFORCEDEV1CLIENTID }}
         USERNAME: ${{ secrets.SALESFORCEDEV1USERNAME }}
         INSTANCE_URL: ${{ secrets.SALESFORCEDEV1INSTANCEURL }}
-      run: sfdx force:auth:jwt:grant --clientid $CLIENT_ID --jwtkeyfile ./buildfiles/server.key --username $USERNAME --instanceurl $INSTANCE_URL -a dev1
+      un: sfdx force:auth:jwt:grant --clientid $CLIENT_ID --jwtkeyfile ./buildfiles/server.key --username $USERNAME --instanceurl $INSTANCE_URL -a dev1
 
     # Convert to Deploy Source
     - name: Convert to Deploy Source
