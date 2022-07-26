@@ -38,7 +38,7 @@ jobs:
         CLIENT_ID: ${{ secrets.SALESFORCEDEV1CLIENTID }}
         USERNAME: ${{ secrets.SALESFORCEDEV1USERNAME }}
         INSTANCE_URL: ${{ secrets.SALESFORCEDEV1INSTANCEURL }}
-      run: sfdx force:auth:jwt:grant --clientid $CLIENT_ID --jwtkeyfile ./buildfiles/server.key --username $USERNAME --instanceurl $INSTANCE_URL -a dev1
+      run: sfdx force:auth:jwt:grant --clientid $CLIENT_ID --jwtkeyfile ./buildfiles/server.key --username $USERNAME --instanceurl $INSTANCE_URL -a dev
 
     # Convert to Deploy Source
     - name: Convert to Deploy Source
@@ -46,8 +46,8 @@ jobs:
     
     # Run Validation of Deploy Source
     - name: Run Validation on Deploy Source
-      run: sfdx force:mdapi:deploy -l RunLocalTests -c -d ./toDeploy -u dev1 -w 10
+      run: sfdx force:mdapi:deploy -l RunLocalTests -c -d ./toDeploy -u dev -w 10
     
     # Deploy
     - name : Deploy to SF Org
-      run: sfdx force:mdapi:deploy -l RunLocalTests -d ./toDeploy -u dev1 -w 10
+      run: sfdx force:mdapi:deploy -l RunLocalTests -d ./toDeploy -u dev -w 10
