@@ -52,9 +52,7 @@
     <name>Certificate</name>
   </types>
   <types>
-    <members>DataCloudCompanyMatch</members>
-    <members>DataCloudGeoLocation</members>
-    <members>DataCloudLeadAppend</members>
+  <members>DataCloudGeoLocation</members>
     <name>CleanDataService</name>
   </types>
   <types>
@@ -222,7 +220,6 @@
     <members>Sales_Marketing_Dashboards/Sales_Executive_Dashboard</members>
     <members>Sales_Marketing_Dashboards/Sales_Manager_Dashboard</members>
     <members>Sales_Marketing_Dashboards/Salesperson_Dashboard</members>
-    <members>SK__Knowledge_Dashboard</members>
     <members>SK__Knowledge_Dashboard/SK__Knowledge</members>
     <members>SK__Knowledge_Dashboard/SK__Knowledge_Publisher_Dashboard</members>
     <members>SK__Knowledge_Dashboard/SK__Sales_Rep_Knowledge_Dashboard</members>
@@ -247,7 +244,6 @@
     <name>DuplicateRule</name>
   </types>
   <types>
-    <members>EmailToCase</members>
     <name>EmailServicesFunction</name>
   </types>
   <types>
@@ -268,10 +264,6 @@
     <name>EmailTemplate</name>
   </types>
   <types>
-    <members>standard case</members>
-    <name>EntitlementProcess</name>
-  </types>
-  <types>
     <members>Case</members>
     <name>EscalationRules</name>
   </types>
@@ -288,10 +280,7 @@
     <members>IframeWhiteListUrlSettings</members>
     <name>IframeWhiteListUrlSettings</name>
   </types>
-  <types>
-    <members>SK</members>
-    <name>InstalledPackage</name>
-  </types>
+
   <types>
     <members>Task-Task Layout</members>
     <members>UserAlt-User Profile Layout</members>
@@ -303,13 +292,7 @@
     <members>WorkOrder-Work Order Layout</members>
     <name>Layout</name>
   </types>
-  <types>
-    <members>cms_document</members>
-    <members>cms_image</members>
-    <members>news</members>
-    <name>ManagedContentType</name>
-  </types>
- 
+
   <types>
     <members>Account.Standard_Account_Match_Rule_v1_0</members>
     <members>Contact.Standard_Contact_Match_Rule_v1_1</members>
@@ -342,19 +325,12 @@
     <name>Portal</name>
   </types>
   <types>
-    <members>Admin</members>
     <members>Chatter External User</members>
     <members>Chatter Free User</members>
     <members>Chatter Moderator User</members>
-    <members>ContractManager</members>
-    <members>Guest License User</members>
-    <members>High Volume Customer Portal User</members>
+    <members>Guest License User</member
     <members>Identity User</members>
-    <members>MarketingProfile</members>
     <members>Minimum Access - Salesforce</members>
-    <members>Read Only</members>
-    <members>SolutionManager</members>
-    <members>Standard</members>
     <members>Trial Customer Portal User</members>
     <name>Profile</name>
   </types>
@@ -537,7 +513,6 @@
     <members>Actions</members>
     <members>Activities</members>
     <members>Address</members>
-    <members>Analytics</members>
     <members>AnalyticsDataServices</members>
     <members>Apex</members>
     <members>AppAnalytics</members>
@@ -545,12 +520,10 @@
     <members>Archive</members>
     <members>Blockchain</members>
     <members>BusinessHours</members>
-    <members>Campaign</members>
     <members>Case</members>
     <members>Chatter</members>
     <members>ChatterEmailsMD</members>
     <members>Commerce</members>
-    <members>Communities</members>
     <members>Company</members>
     <members>ConnectedApp</members>
     <members>Content</members>
@@ -569,7 +542,6 @@
     <members>EmailIntegration</members>
     <members>EmailTemplate</members>
     <members>EmployeeFieldAccess</members>
-    <members>EmployeeUser</members>
     <members>EncryptionKey</members>
     <members>EnhancedNotes</members>
     <members>Entitlement</members>
@@ -588,7 +560,6 @@
     <members>Industries</members>
     <members>InvocableAction</members>
     <members>Knowledge</members>
-    <members>Language</members>
     <members>LeadConfig</members>
     <members>LightningExperience</members>
     <members>Macro</members>
@@ -605,13 +576,11 @@
     <members>Opportunity</members>
     <members>Order</members>
     <members>Org</members>
-    <members>Pardot</members>
     <members>PardotEinstein</members>
     <members>PartyDataModel</members>
     <members>PathAssistant</members>
     <members>PaymentsManagementEnabled</members>
     <members>Picklist</members>
-    <members>PlatformEncryption</members>
     <members>Portals</members>
     <members>PredictionBuilder</members>
     <members>Privacy</members>
@@ -634,7 +603,6 @@
     <members>SourceTracking</members>
     <members>Survey</members>
     <members>SystemNotification</members>
-    <members>Territory2</members>
     <members>Trailhead</members>
     <members>TrialOrg</members>
     <members>UserEngagement</members>
@@ -664,7 +632,6 @@
     <members>Campaign</members>
     <members>Case</members>
     <members>CommSubscription</members>
-    <members>CommSubscriptionChannelType</members>
     <members>CommSubscriptionConsent</members>
     <members>ComponentResponseCache</members>
     <members>Contact</members>
